@@ -1,0 +1,59 @@
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    color:  rgb(109, 109, 107);
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.container {
+    /* border: solid red; */
+    width: 80%;
+    height: 350px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    height: 100%;
+    /* border: solid green; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: space-between;
+    /* align-items: stretch ; */
+}
+
+.innerBox {
+    height: 80%;
+    background: rgb(206, 206, 204);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.button {
+    height: 50px;
+    background: rgb(109, 109, 107);
+    width: 100%;
+    align-self: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
