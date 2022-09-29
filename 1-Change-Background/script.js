@@ -1,4 +1,4 @@
-const colors = ['red', 'green', 'blue', 'yellow', 'pink', 'purple']
+const colors = ['Red', 'Green', 'Blue', 'Yellow', 'Pink', 'Purple']
 var box1 = document.getElementById('bx')
 var button = document.getElementById('btn')
 
