@@ -19,10 +19,10 @@
 
 .numbers {
 	display: flex;
-	width: 90%;
+	width: 100%;
 	/* border: red solid; */
 	justify-content: space-around;
-	margin-top: 10px;
+	margin-top: 40px;
 }
 
 .header {
@@ -31,6 +31,22 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-top: 15px;
+	
+}
+
+.main {
+	width: 80%;
+	/* border: solid red; */
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: space-between;
+}
+
+.header p, h2 {
+	margin: 0;
+	/* border: solid red; */
 }
 
 .header h1, h2{
@@ -55,27 +71,22 @@
 }
 
 #input {
-	width: 55%;
+	/* width: 100%; */
 	height: 15px;
 	padding: 25px ;
 	border-radius: 10px;
 	color: rgb(7, 138, 40);
 	font-weight: bolder;
-	font-size: 25px;
+	font-size: 20px;
 	border: solid rgb(7, 138, 40);
 }
 
-#input::content{
-	/* font-size: 20px; */
-}
-
-
 #button {
-	background: rgb(7, 138, 40);
-	color: white;
+	
+	
 	padding: 15px 30px;
 	border-radius: 10px;
-	width: 55%;
+	/* width: 100%; */
 	font-weight: bolder;
 	/* letter-spacing: 1px; */
 	align-items: center;
@@ -85,4 +96,12 @@
 	font-size: 25px;
 	border: solid white;
 	cursor: pointer;
+	background: rgb(80, 177, 109);
+	color: white;
+}
+
+#button:hover {
+	background: rgb(7, 138, 40);
+	color: white;
+	/* border: none; */
 }
