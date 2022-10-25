@@ -43,18 +43,20 @@ for(var i = 0; i<allButtons.length; i++)
 function calculate()
 {
 	// console.log(operation)
-	var operand = ""
+	//var operand = ""
 
-	for(var i = 0; i < operation.length; i++)
-	{
-		operand += operation[i];
-	}
+	// for(var i = 0; i < operation.length; i++)
+	// {
+	// 	operand += operation[i];
+	// }
 	// console.log(eval("'"+operand+"'"))
-	console.log(eval(operand))
+	console.log(eval(main.innerHTML))
+	console.log(eval(main.innerHTML));
+	main.innerHTML = eval(main.innerHTML)
 	//  eval(operand);
 	// console.log(main.innerHTML)
 
-	main.innerHTML = ''
-	main.append(isplayResult)
+	// main.innerHTML = ''
+	// main.append(isplayResult)
 }
 result.addEventListener('click',calculate);
