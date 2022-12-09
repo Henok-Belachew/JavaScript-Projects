@@ -138,11 +138,13 @@ h2 {
 
 .btns i{
     cursor: pointer;
+    opacity: 60%;
 }
 
 .btns i:hover {
     
-    font-size: larger;
+    /* font-size: larger; */
+    opacity: 100%;
 
 
 }
