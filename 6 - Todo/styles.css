@@ -43,6 +43,10 @@
     color: white;
     text-align: left;
     position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 22%;
+    /* outline: solid yellow; */
     /* font-size: 400px; */
 }
 
